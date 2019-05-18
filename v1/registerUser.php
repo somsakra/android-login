@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                 isset($_POST['password']))
         {
         //poerate the data further
-        $db = new DbOperations();
+        $db = new DbOperation();
 
         if($db->createUser(
             $_POST['username'],
