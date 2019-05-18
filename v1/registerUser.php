@@ -28,7 +28,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
     }else{
         $response['error'] = true;
-        $response['message'] = "Required fields are missing"
+        $response['message'] = "Required fields are missing";
     }
 
 }else{
